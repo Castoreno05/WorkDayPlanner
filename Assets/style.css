@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -61,19 +63,27 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: #26badb;
   color: white;
 }
 
 .saveBtn i:hover {
-  font-size: 20px;
+  font-size: 35px;
   transition: all .3s ease-in-out;
+}
+
+#currentDay{
+  font-size: 45px;
+}
+
+#time {
+  border: dotted black 1px
 }
 
 .col-8 {
   border: solid black 1px;
 }
 
-.col-2 {
-  border: solid black 1px;
-}
+/* #save {
+  background-color: lightskyblue;
+} */
