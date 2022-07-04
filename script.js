@@ -1,2 +1,2 @@
-var weekDay = moment().format("dddd, MMMM Do");
-$("#currentDay").text(weekDay);
+var dayMonth = moment().format("dddd, MMMM Do");
+$("#currentDay").text(dayMonth);
