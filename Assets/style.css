@@ -60,11 +60,11 @@ textarea{
 }
 
 .saveBtn {
-  border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #26badb;
   color: white;
+  padding-left: 20px;
 }
 
 .saveBtn i:hover {
@@ -76,9 +76,6 @@ textarea{
   font-size: 45px;
 }
 
-#time {
-  border: dotted black 1px
-}
 
 .col-8 {
   border: solid black 1px;
@@ -87,3 +84,8 @@ textarea{
 /* #save {
   background-color: lightskyblue;
 } */
+
+#time {
+  display: flex;
+  justify-content: end;
+}
