@@ -76,6 +76,10 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
+.col-1 {
+  border-left: solid black 1px;
+}
+
 #currentDay{
   font-size: 45px;
 }
