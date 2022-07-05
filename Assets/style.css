@@ -30,12 +30,16 @@ textarea{
 .time-block{
   text-align: center;
   border-radius: 15px;
+  background-color: lightgreen;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
 }
 
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
+  margin-bottom: 1.5%;
 }
 
 .hour {
@@ -77,15 +81,13 @@ textarea{
 }
 
 
-.col-8 {
-  border: solid black 1px;
-}
-
-/* #save {
-  background-color: lightskyblue;
-} */
-
 #time {
   display: flex;
   justify-content: end;
+}
+
+#event {
+  background-color: lightgreen;
+  border: none;
+  font-size: 25px;
 }
