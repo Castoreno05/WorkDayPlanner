@@ -85,7 +85,7 @@ textarea{
 }
 
 
-#time {
+.time {
   display: flex;
   justify-content: end;
 }
