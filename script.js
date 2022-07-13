@@ -14,19 +14,25 @@ saveButton.on("click", function () {
     // Then save it to local storage
     var time = $(this).siblings(".time").attr("id")
     localStorage.setItem(time, text);
+    displayedMessage();
 });
 
+// Need to displaya verified save
+function displayedMessage() {
+    var verifiedSave = document.querySelector("#verifiedSave");
+    var message = document.createElement("p");
 
-function displayMessage(type, message) {
-    msgDiv.textContent = message;
-    msgDiv.setAttribute("class", type);
+    message.textContent = "Daily task has been added to local storage";
+
+    verifiedSave.appendChild(message);
+
+    message.setAttribute("style", "display:flex; justify-content:center; background-color:green; color:black;")
 }
-
 
 // We need to get the value. 
 // loops
-for (let index = 9; index <= 17 ; index++) {
-    document.getElementById("event" + index).value = localStorage.getItem("time"+ index)
+for (let index = 9; index <= 17; index++) {
+    document.getElementById("event" + index).value = localStorage.getItem("time" + index)
 }
 
 
