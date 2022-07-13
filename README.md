@@ -1,1 +1,1 @@
-# Work Day Planner
+# WorkDayPlanner
