@@ -8,7 +8,7 @@ Throughout the day tasks build up making the  becomes harder to manage time effi
 
 ![WorkDayPlanner](./Images/Intro.png)
 
-![WorkDayPlanner](./Images/Color%20Time.png)
+![WorkDayPlanner](./Images/Color%20Theme.png)
 
 ![WorkDayPlanner](./Images/Save%20Info.png)
 
