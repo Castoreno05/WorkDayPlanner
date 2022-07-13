@@ -6,6 +6,12 @@ When the page loads you are met with the current date and time. Below that is wh
 
 Throughout the day tasks build up making the  becomes harder to manage time efficiently -->
 
+![WorkDayPlanner](./Images/Intro.png)
+
+![WorkDayPlanner](./Images/Color%20Time.png)
+
+![WorkDayPlanner](./Images/Save%20Info.png)
+
 ---
 
 # Demo 
