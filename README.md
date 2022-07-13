@@ -1,10 +1,13 @@
 # WorkDayPlanner
 
-<!-- In this module you will interact with the WorkDayPlanned! The planner is designed save daily work tasks.
+In this module you will interact with the WorkDayPlanner! Use this planner to save daily work tasks. 
 
-When the page loads you are met with the current date and time. Below that is where the tasks will go.
+The WorkDayPlanner allows you to keep track of daily tasks and work hours. 
 
-Throughout the day tasks build up making the  becomes harder to manage time efficiently -->
+When the page loads you are met with the current date and time. Below that, is where the tasks will go.
+
+Each hour that is highlighted red will indicate to the user that it is the current hour.
+
 
 ![WorkDayPlanner](./Images/Intro.png)
 
