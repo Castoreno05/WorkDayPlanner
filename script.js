@@ -39,12 +39,16 @@ var currentHour = date.getHours()
 for (let index = 9; index < 18; index++) {
     var time = parseInt(document.getElementById("time" + index).id.replace("time", ""));
     var block = document.getElementById("block" + index);
+    var input = document.getElementById("event" + index);
     if (time < currentHour) {
         block.classList.add("past")
+        input.classList.add("past")
     } else if (time == currentHour) {
         block.classList.add("present")
+        input.classList.add("present")
     }
     else {
         block.classList.add("future")
+        input.classList.add("future")
     }
 }
