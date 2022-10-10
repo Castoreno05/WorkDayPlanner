@@ -36,6 +36,8 @@ textarea{
 }
 
 .row {
+  position: relative;
+  right: 5%;
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;
@@ -72,10 +74,9 @@ textarea{
   padding-left: 1px;
   padding-top:12px;
 }
-
-.saveBtn i:hover {
-  font-size: 30px;
-  transition: all .3s ease-in-out;
+.bi {
+  position: relative;
+  left: 45%;
 }
 
 .col-1 {
